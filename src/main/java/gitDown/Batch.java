@@ -2,18 +2,20 @@
  * @author Liam Wells (ljwells0)
  */
 package gitDown;
-
+// Java
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStreamReader;
 import java.net.URL;
+// Eclipse JGit
 import org.eclipse.jgit.api.Git;
+// Eclipse JGit (Exception)
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.api.errors.InvalidRemoteException;
 import org.eclipse.jgit.api.errors.TransportException;
+// Json
 import org.json.JSONArray;
 import org.json.JSONObject;
-
 /**
  * Batch class
  */
